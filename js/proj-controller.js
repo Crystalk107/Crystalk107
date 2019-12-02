@@ -50,8 +50,8 @@ function renderModal(projID) {
               <p>${proj.desc}</p>
               <ul class="list-inline">
                 <li>Date: ${proj.publishedAt}</li>
-                <li>Client: ${proj.name}</li>
-                <li>Category: ${proj.title}</li>
+                <li>Name: ${proj.name}</li>
+                <li>Title: ${proj.title}</li>
               </ul>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
               <i class="fa fa-times"></i>
