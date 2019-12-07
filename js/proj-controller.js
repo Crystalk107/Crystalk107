@@ -57,7 +57,6 @@ function renderModal(projID) {
               <i class="fa fa-times"></i>
                   Close Project</button>
                   <button class="btn btn-primary" onclick="onUrlClicked(this)" data-id="${proj.id}" type="button">
-                  <i class="fa fa-times"></i>
                   Enter Project Website</button>
             </div>
           </div>
